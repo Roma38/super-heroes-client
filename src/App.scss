@@ -1,0 +1,44 @@
+.application {
+  margin-top: 30px;
+}
+
+.add-edit-form.ui.form, .segment-block.ui.segment {
+  max-width: 600px;
+  margin: 60px auto;
+
+  .inline.field > label.ui.primary.button {
+    color: white;
+  }
+}
+
+.buttons-align-wrapper {
+  text-align: center;
+  margin-top: 50px;
+
+  .inline.field > label.ui.button {
+    margin-bottom: 20px;
+  }
+}
+
+.number-input {
+  max-width: 100px;
+}
+
+.ui.form .inline.fields .field.price-checkbox {
+  margin-left: 65px;
+}
+
+.delete-icon {
+  float: right;
+  cursor: pointer;
+  color: grey;
+}
+
+.delete-icon:hover {
+  color: black;
+}
+
+.pagination-wrapper {
+  margin: 20px auto; 
+  text-align: center;
+}
